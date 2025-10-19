@@ -5,7 +5,7 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "barryvdh/laravel-dompdf": "^3.1",
         "bumbummen99/shoppingcart": "^4.2",
         "fruitcake/laravel-cors": "^2.0.5",
@@ -77,7 +77,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+        "php": "8.2"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
